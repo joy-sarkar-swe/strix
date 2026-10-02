@@ -39,7 +39,6 @@ pip-delete-this-directory.txt
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -48,6 +47,7 @@ pip-delete-this-directory.txt
 .settings/
 
 # FastAPI
+temp_auto_push.bat
 .env.local
 .env.development.local
 .env.test.local
@@ -98,3 +98,5 @@ schema.graphql
 /.benchmarks/
 /references/
 /strix_runs_main/
+.gitignore
+branch_structure.json
